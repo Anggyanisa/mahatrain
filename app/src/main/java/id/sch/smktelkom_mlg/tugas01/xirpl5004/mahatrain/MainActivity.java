@@ -74,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
             } else if (first.isChecked()) {
                 hasil2 = first.getText().toString();
             }
+            tvhasil2.setText("Detail Pemesanan Tiket");
+            tvhasil.setText("Nama Pemesan : \n" + nama1 + "\n\nTanggal Berangkat : \n" + date1 + "\n\nBandara Keberangkatan Anda : " + "\n" + departure1 + "\n\nStasiun Tujuan Anda : " + "\n" + arrival1 + "\n\n" + hasil1 + "\nKelas Anda : " + "\n" + hasil2);
 
         }
     }
